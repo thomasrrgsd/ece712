@@ -1,0 +1,25 @@
+
+## Performing Inductor Sweep With Following Parameters:
+## Geometry:
+##	Square spiral on metal 5 and exit_metal = 4
+##	Lmin = 145.800000 Linc = 0.200000 Lmax = 146.200000
+##	Wmin = 28.800000 Winc = 0.200000 Wmax = 29.200000
+##	Smin = 0.100000 Sinc = 1.000000 Smax = 0.100000
+## Electrical Constraints:
+##	freq = 10.000000, Lmin = 0.249000, Lmax = 0.250000, Qmin = 5.000000
+!# Technolog File Data <gpdk180.tek> @ <.>
+!# Auto-Cell Mode:  <alpha> = 0.050000, <beta> = 0.800000
+!# Metal Layers
+!# Name=M1        Met=0  Lyr=  1  Mz=14.90  T=0.50  RS=0.10  Col=BLUE    
+!# Name=M2        Met=1  Lyr=  1  Mz=13.90  T=0.50  RS=0.10  Col=PURPLE  
+!# Name=M3        Met=2  Lyr=  1  Mz=12.90  T=0.50  RS=0.10  Col=RED     
+!# Name=M4        Met=3  Lyr=  1  Mz=11.40  T=1.00  RS=0.05  Col=BLUE    
+!# Name=M5        Met=4  Lyr=  1  Mz=9.40  T=1.00  RS=0.05  Col=GREEN   
+!# Name=M6        Met=5  Lyr=  1  Mz=6.40  T=2.00  RS=0.03  Col=WHITE   
+!# Substrate Layers
+!# Lyr=    0  Eps=  12  Rho=1e+05  DZ=3.2e+02  T=3e+02
+!# Lyr=    1  Eps= 3.9  Rho=1e+14  DZ=  15  T=  15
+##Len   W       S       N       L      R      C1      C2      R1      R2      Q1      Q2      Qdiff
+145.80 28.80  0.10  1.00  0.25  0.80   26.28   21.71  326.45  415.21 15.78 16.28 17.63
+146.00 29.00  0.10  1.00  0.25  0.80   26.67   22.03  325.00  414.12 15.77 16.27 17.65
+146.20 29.00  0.10  1.00  0.25  0.80   26.85   22.15  323.31  412.51 15.76 16.27 17.66
